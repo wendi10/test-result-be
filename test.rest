@@ -1,0 +1,9 @@
+GET http://localhost:3000
+
+###
+GET  http://localhost:3000/t
+Content-Type: application/json
+bearer: yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImNyZWF0ZWRfYXQiOiIyMDIyLTA2LTE4VDE3OjAwOjAwLjAwMFoiLCJpYXQiOjE2NTU2MzcyNTl9.RQvVx1myNWLHS3phwg2vcmCubV86XIU-1Sfs_t_topA
+
+###
+POST http://localhost:3000/login
